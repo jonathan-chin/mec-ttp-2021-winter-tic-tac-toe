@@ -16,48 +16,67 @@
 
       <div id="board">
 	<div class="row">
-	  <div id="tile-0-0" class="col s4 tile" onclick="choose(0, 0)">
-
+	  <div class="col s4 valign-wrapper">
+	    <div id="tile-0-0" onclick="choose(0, 0)" class="tile">
+	      
+	    </div>
 	  </div>
-	  <div id="tile-0-1" class="col s4 tile" onclick="choose(0, 1)">
-
+	  <div class="col s4 valign-wrapper">
+	    <div id="tile-0-1" onclick="choose(0, 1)" class="tile">
+	      
+	    </div>
 	  </div>
-	  <div id="tile-0-2" class="col s4 tile" onclick="choose(0, 2)">
-
-	  </div>
-	</div>
-	<div class="row">
-	  <div id="tile-1-0" class="col s4 tile" onclick="choose(1, 0)">
-
-	  </div>
-	  <div id="tile-1-1" class="col s4 tile" onclick="choose(1, 1)">
-
-	  </div>
-	  <div id="tile-1-2" class="col s4 tile" onclick="choose(1, 2)">
-
+	  <div class="col s4 valign-wrapper">
+	    <div id="tile-0-2" onclick="choose(0, 2)" class="tile">
+	      
+	    </div>
 	  </div>
 	</div>
 	<div class="row">
-	  <div id="tile-2-0" class="col s4 tile" onclick="choose(2, 0)">
-
+	  <div class="col s4 valign-wrapper">
+	    <div id="tile-1-0" onclick="choose(1, 0)" class="tile">
+	      
+	    </div>
 	  </div>
-	  <div id="tile-2-1" class="col s4 tile" onclick="choose(2, 1)">
-
+	  <div class="col s4 valign-wrapper">
+	    <div id="tile-1-1" onclick="choose(1, 1)" class="tile">
+	      
+	    </div>
 	  </div>
-	  <div id="tile-2-2" class="col s4 tile" onclick="choose(2, 2)">
-
+	  <div class="col s4 valign-wrapper">
+	    <div id="tile-1-2" onclick="choose(1, 2)" class="tile">
+	      
+	    </div>
+	  </div>
+	</div>
+	<div class="row">
+	  <div class="col s4 valign-wrapper">
+	    <div id="tile-2-0" onclick="choose(2, 0)" class="tile">
+	      
+	    </div>
+	  </div>
+	  <div class="col s4 valign-wrapper">
+	    <div id="tile-2-1" onclick="choose(2, 1)" class="tile">
+	      
+	    </div>
+	  </div>
+	  <div class="col s4 valign-wrapper">
+	    <div id="tile-2-2" onclick="choose(2, 2)" class="tile">
+	      
+	    </div>
 	  </div>
 	</div>
       </div>
-
-      <button class="waves-effect waves-light btn">
+      
+      <button class="waves-effect waves-light btn"
+	      onclick="reset()">
 	reset
       </button>
 
       <div class="card blue-grey darken-1">
 	<div class="card-content white-text">
 	  <span class="card-title">Record</span>
-	  Wins: 0, Losses: 0, Ties: 0
+	  <span id="record"></span>
 	</div>
       </div>
 
