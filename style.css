@@ -1,0 +1,9 @@
+.tile{
+    height: 150px;
+    border: 1px solid grey;
+    font-size: 30px;
+}
+
+#board .row{
+    margin-bottom: 0;
+}
