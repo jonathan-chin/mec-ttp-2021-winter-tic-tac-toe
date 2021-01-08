@@ -78,7 +78,6 @@ function check_for_wlt(board){
     // check if board is full
     for(let i = 0; i < 3; i++){
 	for(let j = 0; j < 3; j++){
-	    console.log(board[i][j]);
 	    if(board[i][j] == ' '){
 		// there's at least one blank space
 		return 'continue';
